@@ -1,9 +1,9 @@
   #include <stdio.h>
-  #include "mindObject.h"
+  #include "mindObject.cpp"
 
   int main(void)
   {
-    printf("Hello, World\n");
-
+    MindObject test;
+    
     return 0;
   }
