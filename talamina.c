@@ -1,12 +1,12 @@
   #include <stdio.h>
   #include "mindObject.cpp"
+  #include "consciousness.cpp"
 
   int main(void)
   {
-    MindObject test;
-    MindObject added;
+    Consciousness *con;
 
-    test.addAssociation(added);
+    con->mainObject->text = "ich";
 
     return 0;
   }
